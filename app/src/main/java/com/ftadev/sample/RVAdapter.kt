@@ -11,7 +11,7 @@ import com.github.florent37.expansionpanel.ExpansionLayout
 import com.github.florent37.expansionpanel.viewgroup.ExpansionLayoutCollection
 import kotlinx.android.synthetic.main.recycler_cell.view.*
 
-class RVAdapter(context: Context) :
+class RVAdapter :
     RecyclerView.Adapter<RVAdapter.RecyclerHolder>() {
     private var list: ArrayList<Result> =
         ArrayList()

@@ -6,7 +6,6 @@ data class Model(
     val paging: String
 )
 
-
 data class Result(
 
     val id: String,

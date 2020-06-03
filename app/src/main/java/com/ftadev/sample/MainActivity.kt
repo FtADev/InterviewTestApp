@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     private val mApiService by lazy { APIService.instance }
-    private val mAdapter = RVAdapter(this)
+    private val mAdapter = RVAdapter()
 
     @SuppressLint("CheckResult")
     override fun onCreate(savedInstanceState: Bundle?) {
