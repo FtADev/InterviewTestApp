@@ -1,3 +1,5 @@
+package com.ftadev.sample
+
 data class Model(
 
     val result: ArrayList<Result>,

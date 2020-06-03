@@ -1,6 +1,5 @@
 package com.ftadev.sample
 
-import SubCategories
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
